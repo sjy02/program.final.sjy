@@ -1,0 +1,183 @@
+<!DOCTYPE html><!--22061064 손자영-->
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: '나눔고딕'
+
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+        background-color: #FFF7BD;
+      }
+
+      .header {
+        padding: 30px;
+        text-align: center;
+        background-color: #FFF7BD;
+      }
+
+      header h1 {
+        font-size: 50px;
+      }
+
+      .topnav {
+        overflow: auto; /*visible,scroll,auto*/
+        background-color: #F04155;
+      }
+
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .topnav a:hover {
+
+        color: #F2F26F;
+      }
+
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      .leftcolumn .card {
+        background-color: #95CFB7;
+      }
+
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #FFF7BD ;
+        padding-left: 20px;
+      }
+
+      .rightcolumn .card {
+        background-color: #FF823A;
+      }
+
+      .fakeimg {
+        background-color: white
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .card {
+
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center
+
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        background-color: #F04155;
+        margin-top: 20px;
+        color: white
+      }
+
+      @media screen and (max-width:800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+
+      }
+      </style>
+  </head>
+  <body>
+
+    <div class="header">
+        <a href="index.html"><img src='img/logo.png'></a>
+      </div>
+
+      <div class="topnav">
+        <a href="index_video.html">Video</a>
+        <a href="index_contents.html">Contents Design</a>
+        <a href="#">3D Design</a>
+        <a href="index_programming.html">Programming</a>
+        <a href="index_pers.html" style="float:right" >Personal Art</a>
+        </div>
+
+        <div class="row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h2>3D Design</h2>
+              <h5>SJY's 2020 2nd semester 3D Design works.</h5>
+              <div class="fakeimg" style="height:900px;">
+                <img src='img/3d중간과정1.jpg'><img src='img/3d중간과정2.jpg'>
+                <img src='img/3d중간최종.jpg'></div>
+              <p>Midterm Project</p>
+              <p>Making a poster of my 7 objects. Used V-ray light and hdri.
+              <br>My objects are laptop, Galaxy Buds, tablet, <br>
+              phone, glasses, notebook and Nintendo DS Lite. </p>
+
+                <div class="card">
+              <div class="fakeimg" style="height:650px;">
+                <video width='800' height='600' controls>
+              <source src='3d기말.mp4' type='video/mp4'></video>
+                </div>
+              <p>Final Project</p>
+              <p>KISSES chocolate promotion video. <br>
+              Used SuperSpray, V-ray light, and Keyframe animating.<br>
+              Video is edited by AfterEffect.</p>
+              </div>
+                </div>
+
+
+          </div>
+          <div class="rightcolumn">
+            <div class="card">
+              <h2>About Me</h2>
+              <div class="fakeimg" style="height:300px;"><img src='img/myself.jpg'></div>
+              <p>Name : Son Ja Young<br>
+              B.D : 2000.02.20<br>
+            Fav : Pork Cutlet, Drawing, Game<br>
+            Blood : A </p>
+              </div>
+              <div class="card">
+                <h3>BGM</h3>
+                <div class="fakeimg">
+                <audio src='bgm.mp3' controls autoplay loop></audio></div>
+                </div>
+                <div class="card">
+                  <h3>Contact</h3>
+                  <p>jayeoung0002@naver.com</p>
+                  <p>℡ 010-9901-3397</p>
+                </div>
+              </div>
+              </div>
+
+              <div class="footer">
+                <h2>2020 © Copyright SJY<br>All Rights Reserved </h2>
+              </div>
+
+
+  </body>
+</html>
